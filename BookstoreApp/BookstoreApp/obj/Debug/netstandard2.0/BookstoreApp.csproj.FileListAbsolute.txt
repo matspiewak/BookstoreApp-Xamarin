@@ -1,0 +1,14 @@
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\bin\Debug\netstandard2.0\BookstoreApp.deps.json
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\bin\Debug\netstandard2.0\BookstoreApp.dll
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\bin\Debug\netstandard2.0\ref\BookstoreApp.dll
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\bin\Debug\netstandard2.0\BookstoreApp.pdb
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.csprojAssemblyReference.cache
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.AssemblyInfoInputs.cache
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.AssemblyInfo.cs
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.dll
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\ref\BookstoreApp.dll
+C:\Users\Mateusz\source\repos\BookstoreApp\BookstoreApp\BookstoreApp\obj\Debug\netstandard2.0\BookstoreApp.pdb
