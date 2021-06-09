@@ -2,20 +2,17 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BookstoreApp.MainPage"
-             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:local="clr-namespace:BookstoreApp;assembly=BookstoreApp"
              android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="#C39086"
+             android:TabbedPage.BarSelectedItemColor="#C39086"
+             BarBackgroundColor="#EFD0CA"
              Visual="Material">
-    
-    <ContentPage>
-        <StackLayout>
-            <Grid>
-                <Label Text="Szukaj" FontSize="30" TextColor="black" Margin="20,20,0,20" />
-                <ffimageloadingsvg:SvgCachedImage Source="test.svg" WidthRequest="23" HeightRequest="36" Margin="0,20,20,20" HorizontalOptions="End"/>
-            </Grid>
-            <Frame CornerRadius="40" IsClippedToBounds="True" Padding="0" BackgroundColor="#E5E5E5" Margin="30,20,30,20">
-                <Entry Style="{StaticResource search}"/>
-            </Frame>
-        </StackLayout>
-    </ContentPage>
+        
+    <local:Audiobook />
+    <local:Profile />
+    <local:Home />
+    <local:Library />
+    <local:Cart />
 </TabbedPage>

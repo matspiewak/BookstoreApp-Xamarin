@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj": {}
+    "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj": {
+    "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj",
+        "projectUniqueName": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj",
         "projectName": "BookstoreApp.Android",
-        "projectPath": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj",
+        "projectPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\BookstoreApp.Android.csproj",
         "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\obj\\",
+        "outputPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj": {
-                "projectPath": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj"
+              "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj": {
+                "projectPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj"
               }
             }
           }
@@ -57,19 +57,23 @@
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj": {
+    "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
+        "projectUniqueName": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
         "projectName": "BookstoreApp",
-        "projectPath": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
+        "projectPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
         "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateusz\\source\\repos\\BookstoreApp\\BookstoreApp\\BookstoreApp\\obj\\",
+        "outputPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -127,6 +131,10 @@
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
