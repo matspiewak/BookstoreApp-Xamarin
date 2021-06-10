@@ -1170,23 +1170,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateusz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\joann\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
+      "projectUniqueName": "C:\\Users\\joann\\Documents\\GitHub\\BookstoreApp-Xamarin\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
       "projectName": "BookstoreApp",
-      "projectPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
-      "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-      "outputPath": "E:\\MK\\BookstoreApp\\BookstoreApp\\BookstoreApp\\obj\\",
+      "projectPath": "C:\\Users\\joann\\Documents\\GitHub\\BookstoreApp-Xamarin\\BookstoreApp\\BookstoreApp\\BookstoreApp.csproj",
+      "packagesPath": "C:\\Users\\joann\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joann\\Documents\\GitHub\\BookstoreApp-Xamarin\\BookstoreApp\\BookstoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1254,7 +1259,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
