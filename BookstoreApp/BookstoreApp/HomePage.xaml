@@ -6,12 +6,31 @@
              IconImageSource="logo.png">
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
+            <Grid Margin="20,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                </Grid>
                 <Label Text="Szukaj" FontSize="30" TextColor="black" Margin="20,20,0,20" />
                 <ffimageloadingsvg:SvgCachedImage Source="test.svg" WidthRequest="23" HeightRequest="36" Margin="0,20,20,20" HorizontalOptions="End"/>
+            
             </Grid>
             <Frame CornerRadius="40" IsClippedToBounds="True" Padding="0" BackgroundColor="#E5E5E5" Margin="30,20,30,20">
-                <Entry Style="{StaticResource search}"/>
+                <Entry Style="{StaticResource search}" Placeholder="Szukaj książki"/>
             </Frame>
         </StackLayout>
     </ContentPage.Content>
