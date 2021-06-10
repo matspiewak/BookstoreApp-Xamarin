@@ -13,19 +13,19 @@
             <StackLayout Grid.Row="1" Spacing="10" VerticalOptions="Center">
             <Entry x:Name="Entry_Username" 
                        Placeholder="Wprowadź swój mail" 
-                       VerticalOptions="CenterAndExpand" 
+                       VerticalOptions="End" 
                        HorizontalOptions="FillAndExpand"
                        Margin="10"/>
                 <Entry x:Name="Entry_Password" 
                        Placeholder="Wprowadź swoje hasło" 
                        IsPassword="True" 
-                       VerticalOptions="CenterAndExpand" 
+                       VerticalOptions="End" 
                        HorizontalOptions="Fill"
                        Margin="10"/>
                 <Button x:Name="Btn_Signin" 
                         Text="Zaloguj się"
                         Clicked="SignInProcedure" 
-                        VerticalOptions="CenterAndExpand" 
+                        VerticalOptions="End" 
                         HorizontalOptions="Fill" 
                         CornerRadius="20"
                         BorderColor="#EFD0CA"

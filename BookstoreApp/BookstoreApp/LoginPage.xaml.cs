@@ -22,13 +22,12 @@ namespace BookstoreApp
         {
             BackgroundImageSource = "LoginBackground.png";
         }
-        void SignInProcedure(object sender, EventArgs e)
+        async void SignInProcedure(object sender, EventArgs e)
         {
             UserLogin user = new UserLogin(Entry_Username.Text, Entry_Password.Text);
             if (user.CheckInfo())
             {
-
-                DisplayAlert("Login", "Login Success", "Ok");
+                await Navigation.PushAsync(new MainPage());
             }
             else
             {
